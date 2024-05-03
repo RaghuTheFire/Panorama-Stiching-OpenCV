@@ -62,10 +62,8 @@ cv::Mat crop_image(const cv::Mat & image)
   return cv::Mat();
 }
 
-void preview_and_save_image(const cv::Mat & image,
-  const std::string & folder_path,
-    const std::string & folder_name) 
-    {
+void preview_and_save_image(const cv::Mat & image,const std::string & folder_path,const std::string & folder_name) 
+{
   // Display the stitched image
   cv::namedWindow("Stitched Image", cv::WINDOW_NORMAL);
   cv::imshow("Stitched Image", image);
