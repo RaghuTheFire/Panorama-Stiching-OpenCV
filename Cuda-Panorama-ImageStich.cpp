@@ -31,7 +31,7 @@ int main()
 {
   // Read images from a folder
   vector < Mat > images;
-  string folderPath = "path/to/folder";
+  string folderPath = "sample_images";
   vector < String > filenames;
   glob(folderPath, filenames);
 
@@ -76,7 +76,7 @@ int main()
   Mat outputImage(height, width, CV_8UC4, outputImageData);
 
   // Display the panorama image
-  imshow("Panorama", outputImage);
+  imshow("CUDA Panorama", outputImage);
   waitKey(0);
 
   // Free device memory
