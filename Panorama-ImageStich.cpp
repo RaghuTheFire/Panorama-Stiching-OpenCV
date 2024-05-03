@@ -76,7 +76,7 @@ void preview_and_save_image(const cv::Mat & image,const std::string & folder_pat
   std::cout << "Stitched image saved for folder: " << folder_name << std::endl;
 }
 
-void stitch_folder(const std::string & folder_path, int width = 800, int height = 800) 
+void panorama_stitch_folder(const std::string & folder_path, int width = 800, int height = 800) 
 {
   // Stitch all images in a folder and save the result.
   // Load the images from the folder
@@ -110,6 +110,6 @@ void stitch_folder(const std::string & folder_path, int width = 800, int height 
 
 int main() 
 {
-  stitch_folder("sample_images");
+  panorama_stitch_folder("sample_images");
   return 0;
 }
