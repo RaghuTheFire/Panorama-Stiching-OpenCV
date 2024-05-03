@@ -41,7 +41,8 @@ cv::Mat stitch_images(const std::vector < cv::Mat > & images)
   cv::Mat stitched_image;
   std::vector < cv::Mat > stitched_images;
   stitcher -> stitch(images, stitched_images);
-  if (!stitched_images.empty()) {
+  if (!stitched_images.empty()) 
+  {
     stitched_image = stitched_images[0];
   }
   return stitched_image;
