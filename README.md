@@ -1,4 +1,6 @@
 # Panorama-Stiching-OpenCV
+
+# Panorama-ImageStich.cpp
 This C++ code uses the OpenCV library for image processing and stitching. 
 - The `load_images` function loads all image files (with .jpg or .png extension) from the specified folder path. 
 - The `resize_images` function resizes the loaded images to the specified width and height. 
