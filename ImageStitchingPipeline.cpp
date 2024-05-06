@@ -16,7 +16,7 @@ int main(int argc, char ** argv)
 {
   // Read images from directory
   vector < Mat > images;
-  string path = "images/*.jpg";
+  string path = "sample_images/*.jpg";
   vector < String > filenames;
   glob(path, filenames);
   for (size_t i = 0; i < filenames.size(); ++i) 
