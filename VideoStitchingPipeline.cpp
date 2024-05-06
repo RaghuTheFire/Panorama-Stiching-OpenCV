@@ -1,3 +1,6 @@
+/*********************************************************************************************************************************************
+Video Stitching Pipeline from rtsp video using Keypoint detection, Feature matching, Homography, RANSAC, Image warping and blending
+********************************************************************************************************************************************/
 #include <opencv2/opencv.hpp>
 #include <opencv2/xfeatures2d.hpp>
 #include <opencv2/stitching.hpp>
